@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Wspaniała Strona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Witaj na Mojej Wspaniałej Stronie!</h1>
+</header>
+
+<main>
+    <div class="card">
+        <h2>O Mnie</h2>
+        <p>Witam! Cieszę się, że mogę podzielić się z Tobą tą prostą stroną internetową. Zachęcam do poznania mnie bliżej!</p>
+    </div>
+    <div class="card">
+        <h2>Moje Zainteresowania</h2>
+        <ul>
+            <li>Programowanie</li>
+            <li>Czytanie</li>
+            <li>Podróżowanie</li>
+            <li>Fotografia</li>
+        </ul>
+    </div>
+    <div class="card">
+        <h2>Kontakt</h2>
+        <p>Email: example@example.com</p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2023 Moja Wspaniała Strona</p>
+</footer>
+
+</body>
+</html>
